@@ -26,7 +26,8 @@ export default class Preloader extends Phaser.Scene
 
 	create()
 	{
-		this.scene.start('game', { level: 4 });
+		// this.scene.start('game', { level: 4 });
+		this.scene.start('game', { level: 1 });
 
 		this.sound.play('game-music', {
 			loop: true,
